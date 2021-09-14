@@ -1,37 +1,29 @@
-# Pokémon Pinball
+# Pokémon Pinball: Edició en català
 
-This is a disassembly of Pokémon Pinball (Game Boy Color).
+Fitxers desensamblats del joc Pokémon Pinball (GBC) traduïts al català.
 
-It builds the following rom:
+Crea la següent ROM:
 
-* Pokemon Pinball (U) [C][!].gb  `md5: fbe20570c2e52c937a9395024069ba3c`
+* pokepinballrs.gba `sha1: 9fec81ce2c5df589e0371a0bf2f92a5fe8db730b`
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+Per instal·lar el repositori mireu el document [**INSTALL.md**](INSTALL.md).
 
-
-## See also
+## Pret
 
 - **Discord:** [pret][discord]
-- **IRC:** [freenode#pret][irc]
 
-Other disassembly projects:
 
-- [**Pokémon Red/Blue**][pokered]
-- [**Pokémon Yellow**][pokeyellow]
-- [**Pokémon Gold/Silver**][pokegold]
-- [**Pokémon Crystal**][pokecrystal]
-- [**Pokémon TCG**][poketcg]
-- [**Pokémon Ruby**][pokeruby]
-- [**Pokémon FireRed**][pokefirered]
-- [**Pokémon Emerald**][pokeemerald]
+## També us pot interessar:
 
-[pokered]: https://github.com/pret/pokered
-[pokeyellow]: https://github.com/pret/pokeyellow
-[pokegold]: https://github.com/pret/pokegold
-[pokecrystal]: https://github.com/pret/pokecrystal
-[poketcg]: https://github.com/pret/poketcg
-[pokeruby]: https://github.com/pret/pokeruby
-[pokefirered]: https://github.com/pret/pokefirered
-[pokeemerald]: https://github.com/pret/pokeemerald
+
+- [**Pokémon Pinball Rubí i Safir:**][pinballcat]
+- [**The Binding Isaac Afterbirth +:**][a+]
+- [**The Binding Isaac Repentance:**][rep]
+- [**Among Us:**][au]
+
+[c]: https://twitter.com/PrCeTrencada
+[pinballcat]: https://github.com/PrCeTrencada/PokePinballRS_cat
+[a+]: https://github.com/PrCeTrencada/Isaac_AfterbirthPlus_cat
+[rep]: https://github.com/PrCeTrencada/IsaacRepentance_cat
+[au]: https://github.com/PrCeTrencada/AmongUs_cat
 [discord]: https://discord.gg/d5dubZ3
-[irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
