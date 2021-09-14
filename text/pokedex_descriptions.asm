@@ -1,4 +1,4 @@
-PokedexDescriptionPointers: ; 0x2c002
+PokedexDescriptionPointers: ; 0x2c002  20 caracters maxim
 	dw BulbasaurPokedexDescription
 	dw IvysaurPokedexDescription
 	dw VenusaurPokedexDescription
@@ -69,7 +69,7 @@ PokedexDescriptionPointers: ; 0x2c002
 	dw MachampPokedexDescription
 	dw BellsproutPokedexDescription
 	dw WeepinbellPokedexDescription
-	dw VictreebellPokedexDescription
+	dw VictreebelPokedexDescription
 	dw TentacoolPokedexDescription
 	dw TentacruelPokedexDescription
 	dw GeodudePokedexDescription
@@ -152,1360 +152,1360 @@ PokedexDescriptionPointers: ; 0x2c002
 	dw MewPokedexDescription
 
 RhydonPokedexDescription: ; 0x2c130
-	dex_text "Protected by an"
-	dex_line "armor-like hide,"
-	dex_line "it is capable of"
-	dex_line "living in molten"
-	dex_line "lava of 3,600"
-	dex_line "degrees."
+	dex_text "Té una pell amb una"
+	dex_line "duresa similar al"
+	dex_line "ferro i pot viure"
+	dex_line "en entorns amb lava"
+	dex_line "viva que crema a uns"
+	dex_line "tres mil graus celsius."
 	dex_end
 
 KangaskhanPokedexDescription: ; 0x2c18a
-	dex_text "The infant rarely"
-	dex_line "ventures out of"
-	dex_line "its mother`s"
-	dex_line "protective pouch"
-	dex_line "until it is 3"
-	dex_line "years old."
+	dex_text "El cadell només"
+	dex_line "surt de la bossa"
+	dex_line "de la seva mare"
+	dex_line "quan fa m3nim"
+	dex_line "els tres anys."
+	dex_line ""
 	dex_end
 
 NidoranMPokedexDescription: ; 0x2c1e3
-	dex_text "Stiffens its ears"
-	dex_line "to sense danger."
-	dex_line "The larger its"
-	dex_line "horns, the more"
-	dex_line "powerful its"
-	dex_line "secreted venom."
+	dex_text "Si para les orelles pot"
+	dex_line "percebre el perill."
+	dex_line "Com més grans siguin"
+	dex_line "les seves banyes,"
+	dex_line "més potents son les"
+	dex_line "toxines que segrega."
 	dex_end
 
 ClefairyPokedexDescription: ; 0x2c242
-	dex_text "Its magical and"
-	dex_line "cute appeal has"
-	dex_line "many admirers."
-	dex_line "It is rare and"
-	dex_line "found only in"
-	dex_line "certain areas."
+	dex_text "Molts admiren"
+	dex_line "el seu aspecte"
+	dex_line "m4gic i adorable."
+	dex_line "En algunes ocasions"
+	dex_line "se`n poden trobar"
+	dex_line "a certes zones."
 	dex_end
 
 SpearowPokedexDescription: ; 0x2c29d
-	dex_text "Eats bugs in"
-	dex_line "grassy areas. It"
-	dex_line "has to flap its"
-	dex_line "short wings at"
-	dex_line "high speed to"
-	dex_line "stay airborne."
+	dex_text "Menja insectes"
+	dex_line "de zones amb herba."
+	dex_line "Ha de moure les ales"
+	dex_line "molt r4pidament per"
+	dex_line "guanyar altura"
+	dex_line "durant el vol."
 	dex_end
 
 VoltorbPokedexDescription: ; 0x2c2f7
-	dex_text "Usually found in"
-	dex_line "power plants."
-	dex_line "Easily mistaken"
-	dex_line "for a POKé BALL,"
-	dex_line "they have zapped"
-	dex_line "many people."
+	dex_text "Habitualment es troba"
+	dex_line "en centrals i edificis."
+	dex_line "Sovint es confon"
+	dex_line "amb una POKé BALL,"
+	dex_line "cosa que ha enrampat"
+	dex_line "a molta gent."
 	dex_end
-
+;continue
 NidokingPokedexDescription: ; 0x2c355
-	dex_text "It uses its"
-	dex_line "powerful tail in"
-	dex_line "battle to smash,"
-	dex_line "constrict, then"
-	dex_line "break the prey`s"
-	dex_line "bones."
+	dex_text "Utilitza la seva"
+	dex_line "cua poderosa durant"
+	dex_line "el combat per colpejar,"
+	dex_line "apretar i trencar"
+	dex_line "els ossos de la"
+	dex_line "presa."
 	dex_end
 
 SlowbroPokedexDescription: ; 0x2c3ab
-	dex_text "The SHELLDER that"
-	dex_line "is latched onto"
-	dex_line "SLOWPOKE`s tail"
-	dex_line "is said to feed"
-	dex_line "on the host`s left"
-	dex_line "over scraps."
+	dex_text "Es diu que la Te-"
+	dex_line "llingua que s`arrapa"
+	dex_line "a la cua del Lent8fol"
+	dex_line "s`alimenta de"
+	dex_line "les restes de"
+	dex_line "l`amfitri5."
 	dex_end
 
 IvysaurPokedexDescription: ; 0x2c40d
-	dex_text "When the bulb on"
-	dex_line "its back grows"
-	dex_line "large, it appears"
-	dex_line "to lose the"
-	dex_line "ability to stand"
-	dex_line "on its hind legs."
+	dex_text "Quan el bulb de la"
+	dex_line "seva esquena floreix,"
+	dex_line "sembla que per la mida"
+	dex_line "del bulb perd la capa-"
+	dex_line "citat de posar-se"
+	dex_line "dempeus."
 	dex_end
 
 ExeggutorPokedexDescription: ; 0x2c46e
-	dex_text "Legend has it that"
-	dex_line "on rare occasions,"
-	dex_line "one of its heads"
-	dex_line "will drop off and"
-	dex_line "continue on as an"
-	dex_line "EXEGGCUTE."
+	dex_text "Explica la llegenda,"
+	dex_line "que, en rares"
+	dex_line "ocasions, un dels"
+	dex_line "caps cau del cos"
+	dex_line "i es converteix en"
+	dex_line "un nou Ovomental."
 	dex_end
 
 LickitungPokedexDescription: ; 0x2c4d4
-	dex_text "Its tongue can be"
-	dex_line "extended like a"
-	dex_line "chameleon`s. It"
-	dex_line "leaves a tingling"
-	dex_line "sensation when it"
-	dex_line "licks enemies."
+	dex_text "La seva llengua es"
+	dex_line "pot extendre com la d`un"
+	dex_line "camale5. Quan llepa"
+	dex_line "els contrincants,"
+	dex_line "fa que el seu cos"
+	dex_line "formiguegi."
 	dex_end
 
 ExeggcutePokedexDescription: ; 0x2c539
-	dex_text "Often mistaken"
-	dex_line "for eggs."
-	dex_line "When disturbed,"
-	dex_line "they quickly"
-	dex_line "gather and attack"
-	dex_line "in swarms."
+	dex_text "Sovint es confon amb"
+	dex_line "un grapat d`ous."
+	dex_line "Quan se`l molesta,"
+	dex_line "s`agrupa immediata-"
+	dex_line "ment i ataca en"
+	dex_line "grup."
 	dex_end
 
 GrimerPokedexDescription: ; 0x2c58c
-	dex_text "Appears in filthy"
-	dex_line "areas. Thrives by"
-	dex_line "sucking up"
-	dex_line "polluted sludge"
-	dex_line "that is pumped"
-	dex_line "out of factories."
+	dex_text "Apareix en zones"
+	dex_line "immundes. Creix"
+	dex_line "absorbint residus,"
+	dex_line "metzines i altres"
+	dex_line "subst4ncies de les"
+	dex_line "f4briques."
 	dex_end
 
 GengarPokedexDescription: ; 0x2c5ec
-	dex_text "Under a full moon,"
-	dex_line "this POKéMON"
-	dex_line "likes to mimic"
-	dex_line "the shadows of"
-	dex_line "people and laugh"
-	dex_line "at their fright."
+	dex_text "Durant la lluna plena,"
+	dex_line "a aquest POKéMON"
+	dex_line "li agrada imitar"
+	dex_line "les ombres de les"
+	dex_line "persones i riure`s"
+	dex_line "dels seus esglais."
 	dex_end
 
 NidoranFPokedexDescription: ; 0x2c64c
-	dex_text "Although small,"
-	dex_line "its venomous"
-	dex_line "barbs render this"
-	dex_line "POKéMON dangerous."
-	dex_line "The female has"
-	dex_line "smaller horns."
+	dex_text "La seva banya, tot i"
+	dex_line "ser petita, és"
+	dex_line "verinosa i li permet"
+	dex_line "lluitar contra POKéMONS"
+	dex_line "més grans, malgrat"
+	dex_line "que no ser agressiva."
 	dex_end
 
 NidoqueenPokedexDescription: ; 0x2c6ac
-	dex_text "Its hard scales"
-	dex_line "provide strong"
-	dex_line "protection. It"
-	dex_line "uses its hefty"
-	dex_line "bulk to execute"
-	dex_line "powerful moves."
+	dex_text "Les seves escates dures"
+	dex_line "li ofereixen una"
+	dex_line "gran defensa. Empra"
+	dex_line "la seva musculatura"
+	dex_line "per executar moviments"
+	dex_line "de molta pot7ncia."
 	dex_end
 
 CubonePokedexDescription: ; 0x2c709
-	dex_text "Because it never"
-	dex_line "removes its skull"
-	dex_line "helmet, no one"
-	dex_line "has ever seen"
-	dex_line "this POKéMON`s"
-	dex_line "real face."
+	dex_text "Mai ning2 ha vist"
+	dex_line "l`aut7ntic rostre"
+	dex_line "d`aquest POKéMON, ja"
+	dex_line "que mai es treu la "
+	dex_line "calavera que porta."
+	dex_line ""
 	dex_end
 
 RhyhornPokedexDescription: ; 0x2c763
-	dex_text "Its massive bones"
-	dex_line "are 1000 times"
-	dex_line "harder than human"
-	dex_line "bones. It can"
-	dex_line "easily knock a"
-	dex_line "trailer flying."
+	dex_text "Els seus ossos"
+	dex_line "son massissos i molt"
+	dex_line "més feixucs que els"
+	dex_line "dels humans. Pot"
+	dex_line "bolcar un vehicle"
+	dex_line "f4cilment."
 	dex_end
 
 LaprasPokedexDescription: ; 0x2c7c3
-	dex_text "A POKéMON that"
-	dex_line "has been over-"
-	dex_line "hunted almost to"
-	dex_line "extinction. It"
-	dex_line "can ferry people"
-	dex_line "across the water."
+	dex_text "Un POKéMON gairebé"
+	dex_line "extingit per culpa"
+	dex_line "de l`home."
+	dex_line "Pot portar persones"
+	dex_line "a través del mar"
+	dex_line "i els oceans."
 	dex_end
 
 ArcaninePokedexDescription: ; 0x2c824
-	dex_text "A POKéMON that"
-	dex_line "has been admired"
-	dex_line "since the past"
-	dex_line "for its beauty."
-	dex_line "It runs agilely"
-	dex_line "as if on wings."
+	dex_text "Un POKéMON que"
+	dex_line "s`ha admirat des de"
+	dex_line "l`antiguitat per la"
+	dex_line "seva bellesa."
+	dex_line "Quan corre sembla"
+	dex_line "que tingui ales."
 	dex_end
 
 MewPokedexDescription: ; 0x2c883
-	dex_text "So rare that it"
-	dex_line "is still said to"
-	dex_line "be a mirage by"
-	dex_line "many experts. Only"
-	dex_line "a few people have"
-	dex_line "seen it worldwide. "
+	dex_text "L`Alfel3 és tan miste-"
+	dex_line "ri5s que molts experts"
+	dex_line "diuen que no existeix"
+	dex_line "realment. Molt poques"
+	dex_line "persones l`han pogut"
+	dex_line "veure en tot el m5n."
 	dex_end
 
 GyaradosPokedexDescription: ; 0x2c8ec
-	dex_text "Rarely seen in"
-	dex_line "the wild. Huge"
-	dex_line "and vicious, it"
-	dex_line "is capable of"
-	dex_line "destroying entire"
-	dex_line "cities in a rage."
+	dex_text "Insual és veure`l"
+	dex_line "en estat salvatge."
+	dex_line "Gran i malvat, pot"
+	dex_line "destruir ciutats"
+	dex_line "senceres si no esta"
+	dex_line "de bon humor." 
 	dex_end
 
 ShellderPokedexDescription: ; 0x2c94c
-	dex_text "Its hard shell"
-	dex_line "repels any kind"
-	dex_line "of attack."
-	dex_line "It is vulnerable"
-	dex_line "only when its"
-	dex_line "shell is open."
+	dex_text "La seva dura closca"
+	dex_line "el defensa de qualsevol"
+	dex_line "tipus d`atac."
+	dex_line "Només és vulnerable"
+	dex_line "quan obre la"
+	dex_line "conquilla."
 	dex_end
 
 TentacoolPokedexDescription: ; 0x2c9a4
-	dex_text "Drifts in shallow"
-	dex_line "seas. Anglers who"
-	dex_line "hook them by"
-	dex_line "accident are"
-	dex_line "often punished by"
-	dex_line "its stinging acid."
+	dex_text "Erra a la deriva"
+	dex_line "a poca profunditat."
+	dex_line "Castiga els pescadors"
+	dex_line "que l`enganxen"
+	dex_line "amb els seus tentacles"
+	dex_line "verinosos."
 	dex_end
 
 GastlyPokedexDescription: ; 0x2ca07
-	dex_text "Almost invisible,"
-	dex_line "this gaseous"
-	dex_line "POKéMON cloaks"
-	dex_line "the target and"
-	dex_line "puts it to sleep"
-	dex_line "without notice."
+	dex_text "Quasi invisible,"
+	dex_line "aquest POKéMON gas5s"
+	dex_line "cobreix per sorpresa"
+	dex_line "l`enemic i l`adorm"
+	dex_line "silenciosament."
+	dex_line ""
 	dex_end
 
 ScytherPokedexDescription: ; 0x2ca65
-	dex_text "With ninja-like"
-	dex_line "agility and speed,"
-	dex_line "it can create the"
-	dex_line "illusion that"
-	dex_line "there is more"
-	dex_line "than one."
+	dex_text "Amb l`agilitat"
+	dex_line "i la velocitat que té,"
+	dex_line "crea la falsa"
+	dex_line "sensaci5 que n`hi ha"
+	dex_line "més d`un."
+	dex_line ""
 	dex_end
 
 StaryuPokedexDescription: ; 0x2cac0
-	dex_text "An enigmatic"
-	dex_line "POKéMON that can"
-	dex_line "effortlessly"
-	dex_line "regenerate any"
-	dex_line "appendage it"
-	dex_line "loses in battle."
+	dex_text "Un enigm4tic"
+	dex_line "POKéMON que pot"
+	dex_line "regenerar sense"
+	dex_line "cap problema les"
+	dex_line "extremitats que perd"
+	dex_line "durant els combats."
 	dex_end
 
 BlastoisePokedexDescription: ; 0x2cb18
-	dex_text "A brutal POKéMON"
-	dex_line "with pressurized"
-	dex_line "water jets on its"
-	dex_line "shell. They are"
-	dex_line "used for high"
-	dex_line "speed tackles."
+	dex_text "Un POKéMON ferotge"
+	dex_line "amb canons d`aigua"
+	dex_line "pressuritzada a la"
+	dex_line "closca. Els empra"
+	dex_line "per placar l`oponent"
+	dex_line "a molta velocitat."
 	dex_end
 
 PinsirPokedexDescription: ; 0x2cb79
-	dex_text "If it fails to"
-	dex_line "crush the victim"
-	dex_line "in its pincers,"
-	dex_line "it will swing it"
-	dex_line "around and toss"
-	dex_line "it hard."
+	dex_text "Si falla a l`hora"
+	dex_line "d`esclafar la presa"
+	dex_line "amb les pinces,"
+	dex_line "la sacseja fortament"
+	dex_line "i la llen9a amb"
+	dex_line "molta energia."
 	dex_end
 
 TangelaPokedexDescription: ; 0x2cbd3
-	dex_text "The whole body is"
-	dex_line "swathed with wide"
-	dex_line "vines that are"
-	dex_line "similar to sea-"
-	dex_line "weed. Its vines"
-	dex_line "shake as it walks."
+	dex_text "Té tot el cos ple"
+	dex_line "d`enfiladisses"
+	dex_line "denses similars a"
+	dex_line "les algues marines."
+	dex_line "Aquestes es mouen"
+	dex_line "quan camina."
 	dex_end
 
 GrowlithePokedexDescription: ; 0x2cc39
-	dex_text "Very protective"
-	dex_line "of its territory."
-	dex_line "It will bark and"
-	dex_line "bite to repel"
-	dex_line "intruders from"
-	dex_line "its space."
+	dex_text "Protegeix amb afany"
+	dex_line "el seu territori."
+	dex_line "Borda i mossega"
+	dex_line "als intrusos."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 OnixPokedexDescription: ; 0x2cc94
-	dex_text "As it grows, the"
-	dex_line "stone portions of"
-	dex_line "its body harden"
-	dex_line "to become similar"
-	dex_line "to a diamond, but"
-	dex_line "colored black."
+	dex_text "A mesura que creix,"
+	dex_line "els trossos de pedra"
+	dex_line "del seu cos"
+	dex_line "s`endureixen i"
+	dex_line "obtenen una duresa"
+	dex_line "similar al diamant."
 	dex_end
 
 FearowPokedexDescription: ; 0x2ccfa
-	dex_text "With its huge and"
-	dex_line "magnificent wings,"
-	dex_line "it can keep aloft"
-	dex_line "without ever"
-	dex_line "having to land"
-	dex_line "for rest."
+	dex_text "Amb les seves grans"
+	dex_line "ales majestuoses,"
+	dex_line "pot volar tot el dia"
+	dex_line "sense necessitat"
+	dex_line "d`aterrar per"
+	dex_line "descansar."
 	dex_end
 
 PidgeyPokedexDescription: ; 0x2cd57
-	dex_text "A common sight in"
-	dex_line "forests and woods."
-	dex_line "It flaps its"
-	dex_line "wings at ground"
-	dex_line "level to kick up"
-	dex_line "blinding sand."
+	dex_text "Se`n poden trobar"
+	dex_line "en boscs i prats."
+	dex_line "Aletejen les ales"
+	dex_line "a ras de terra"
+	dex_line "per aixecar"
+	dex_line "polseguera."
 	dex_end
 
 SlowpokePokedexDescription: ; 0x2cdb9
-	dex_text "Incredibly slow"
-	dex_line "and dopey. It"
-	dex_line "takes 5 seconds"
-	dex_line "for it to feel"
-	dex_line "pain when under"
-	dex_line "attack."
+	dex_text "Formidablement lent"
+	dex_line "i beneit. Triga cinc"
+	dex_line "segons en sentir"
+	dex_line "el dolor d`un atac"
+	dex_line "de l`enemic."
+	dex_line ""
 	dex_end
 
 KadabraPokedexDescription: ; 0x2ce0e
-	dex_text "It emits special"
-	dex_line "alpha waves from"
-	dex_line "its body that"
-	dex_line "induce headaches"
-	dex_line "just by being"
-	dex_line "close by."
+	dex_text "Emet ones alfa"
+	dex_line "especials des"
+	dex_line "del seu cos"
+	dex_line "que provoquen migra-"
+	dex_line "nya només d`estar-se"
+	dex_line "al seu costat."
 	dex_end
 
 GravelerPokedexDescription: ; 0x2ce67
-	dex_text "Rolls down slopes"
-	dex_line "to move. It rolls"
-	dex_line "over any obstacle"
-	dex_line "without slowing"
-	dex_line "or changing its"
-	dex_line "direction."
+	dex_text "Rodar és la manera"
+	dex_line "que té de moure`s."
+	dex_line "Roda a través dels"
+	dex_line "obstacles sense"
+	dex_line "parar ni canviar"
+	dex_line "de rumb."
 	dex_end
 
 ChanseyPokedexDescription: ; 0x2cec8
-	dex_text "A rare and elusive"
-	dex_line "POKéMON that is"
-	dex_line "said to bring"
-	dex_line "happiness to those"
-	dex_line "who manage to get"
-	dex_line "it."
+	dex_text "Un POKéMON poc habitual"
+	dex_line "i esmunyed3s que es diu"
+	dex_line "que porta la felici-"
+	dex_line "tat a qui aconsegueix"
+	dex_line "atrapar-lo."
+	dex_line ""
 	dex_end
 
 MachokePokedexDescription: ; 0x2cf22
-	dex_text "Its muscular body"
-	dex_line "is so powerful, it"
-	dex_line "must wear a power"
-	dex_line "save belt to be"
-	dex_line "able to regulate"
-	dex_line "its motions."
+	dex_text "El seu cos musculat"
+	dex_line "és tan potent que"
+	dex_line "necessita portar un"
+	dex_line "cintur5 limitador"
+	dex_line "per poder regular"
+	dex_line "els moviments."
 	dex_end
 
 MrMimePokedexDescription: ; 0x2cf87
-	dex_text "If interrupted"
-	dex_line "while it is"
-	dex_line "miming, it will"
-	dex_line "slap around the"
-	dex_line "offender with its"
-	dex_line "broad hands."
+	dex_text "Si se l`interromp"
+	dex_line "quan esta fent de"
+	dex_line "mim, li donar4"
+	dex_line "un gec d`hosties"
+	dex_line "amb la m4 nua a"
+	dex_line "l`atrevit."
 	dex_end
 
 HitmonleePokedexDescription: ; 0x2cfe1
-	dex_text "When in a hurry,"
-	dex_line "its legs lengthen"
-	dex_line "progressively."
-	dex_line "It runs smoothly"
-	dex_line "with extra long,"
-	dex_line "loping strides."
+	dex_text "Quan té pressa,"
+	dex_line "les cames se li"
+	dex_line "extenen gradualment."
+	dex_line "Corre com si"
+	dex_line "portés xanques molt"
+	dex_line "llargues."
 	dex_end
 
 HitmonchanPokedexDescription: ; 0x2d045
-	dex_text "While apparently"
-	dex_line "doing nothing, it"
-	dex_line "fires punches in"
-	dex_line "lightning fast"
-	dex_line "volleys that are"
-	dex_line "impossible to see. "
+	dex_text "Sembla que no faci"
+	dex_line "res, malgrat que"
+	dex_line "dona cops de puny"
+	dex_line "impossibles de veure"
+	dex_line "a la velocitat de"
+	dex_line "la llum."
 	dex_end
 
 ArbokPokedexDescription: ; 0x2d0ad
-	dex_text "It is rumored that"
-	dex_line "the ferocious"
-	dex_line "warning markings"
-	dex_line "on its belly"
-	dex_line "differ from area"
-	dex_line "to area."
+	dex_text "Es rumoreja que les"
+	dex_line "ferotges marques"
+	dex_line "d`alerta que té"
+	dex_line "al cos s5n diferents"
+	dex_line "a altres indrets."
+	dex_line ""
 	dex_end
 
 ParasectPokedexDescription: ; 0x2d106
-	dex_text "A host-parasite"
-	dex_line "pair in which the"
-	dex_line "parasite mushroom"
-	dex_line "has taken over the"
-	dex_line "host bug. Prefers"
-	dex_line "damp places. "
+	dex_text "El par4sit gorrer"
+	dex_line "del bolet ha pres el"
+	dex_line "el control del POKéMON"
+	dex_line "hoste."
+	dex_line "Prefereix els llocs"
+	dex_line "humits. "
 	dex_end
 
 PsyduckPokedexDescription: ; 0x2d16d
-	dex_text "While lulling its"
-	dex_line "enemies with its"
-	dex_line "vacant look, this"
-	dex_line "wily POKéMON will"
-	dex_line "use psychokinetic"
-	dex_line "powers."
+	dex_text "Encara que calmi"
+	dex_line "els enemics amb la"
+	dex_line "seva mirada buida,"
+	dex_line "aquest POKéMON pot"
+	dex_line "emprar poders"
+	dex_line "telecin7tics."
 	dex_end
 
 DrowzeePokedexDescription: ; 0x2d1ce
-	dex_text "Puts enemies to"
-	dex_line "sleep then eats"
-	dex_line "their dreams."
-	dex_line "Occasionally gets"
-	dex_line "sick from eating"
-	dex_line "bad dreams."
+	dex_text "Adorm els enemics"
+	dex_line "per menjar-se els"
+	dex_line "seus somnis."
+	dex_line "Pot emmalaltir"
+	dex_line "si menja malsons."
+	dex_line ""
 	dex_end
 
 GolemPokedexDescription: ; 0x2d22b
-	dex_text "Its boulder-like"
-	dex_line "body is extremely"
-	dex_line "hard. It can"
-	dex_line "easily withstand"
-	dex_line "dynamite blasts"
-	dex_line "without damage."
+	dex_text "El seu cos semblant"
+	dex_line "a un roc és extrema-"
+	dex_line "ment dur. Pot"
+	dex_line "suportar explosions"
+	dex_line "de dinamita sense"
+	dex_line "ni una rascada"
 	dex_end
 
 MagmarPokedexDescription: ; 0x2d28c
-	dex_text "Its body always"
-	dex_line "burns with an"
-	dex_line "orange glow that"
-	dex_line "enables it to"
-	dex_line "hide perfectly"
-	dex_line "among flames."
+	dex_text "El seu cos crema"
+	dex_line "amb una brillantor"
+	dex_line "taronja que el"
+	dex_line "camufla perfectament"
+	dex_line "entre les flames."
+	dex_line ""
 	dex_end
 
 ElectabuzzPokedexDescription: ; 0x2d2e6
-	dex_text "Normally found"
-	dex_line "near power plants,"
-	dex_line "they can wander"
-	dex_line "away and cause"
-	dex_line "major blackouts"
-	dex_line "in cities."
+	dex_text "Normalment es troba"
+	dex_line "a prop de centrals"
+	dex_line "el7ctriques, sol causar"
+	dex_line "apagades a les ciutats."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 MagnetonPokedexDescription: ; 0x2d342
-	dex_text "Formed by several"
-	dex_line "MAGNEMITEs linked"
-	dex_line "together. They"
-	dex_line "frequently appear"
-	dex_line "when sunspots"
-	dex_line "flare up."
+	dex_text "Format per diversos"
+	dex_line "Magn7tulls units"
+	dex_line "entre si. Apareixen"
+	dex_line "freqJentment"
+	dex_line "quan les taques"
+	dex_line "solars s`encenen."
 	dex_end
 
 KoffingPokedexDescription: ; 0x2d39f
-	dex_text "Because it stores"
-	dex_line "several kinds of"
-	dex_line "toxic gases in"
-	dex_line "its body, it is"
-	dex_line "prone to exploding"
-	dex_line "without warning."
+	dex_text "Com que emmagatzema"
+	dex_line "diversos tipus de"
+	dex_line "gasos verinosos"
+	dex_line "és possible que"
+	dex_line "exploti de cop"
+	dex_line "i volta."
 	dex_end
 
 MankeyPokedexDescription: ; 0x2d405
-	dex_text "Extremely quick to"
-	dex_line "anger. It could"
-	dex_line "be docile one"
-	dex_line "moment then"
-	dex_line "thrashing away"
-	dex_line "the next instant."
+	dex_text "Molt irascible."
+	dex_line "Pot passar de la"
+	dex_line "calma a la ira"
+	dex_line "en questi5 de"
+	dex_line "segons."
+	dex_line ""
 	dex_end
 
 SeelPokedexDescription: ; 0x2d463
-	dex_text "The protruding"
-	dex_line "horn on its head"
-	dex_line "is very hard."
-	dex_line "It is used for"
-	dex_line "bashing through"
-	dex_line "thick ice."
+	dex_text "La banya protuberant"
+	dex_line "del seu cap és molt"
+	dex_line "dura."
+	dex_line "L`utilitza per fer"
+	dex_line "cops de cap i"
+	dex_line "trencar el gel esp7s."
 	dex_end
 
 DiglettPokedexDescription: ; 0x2d4bb
-	dex_text "Lives about one"
-	dex_line "yard underground"
-	dex_line "where it feeds on"
-	dex_line "plant roots. It"
-	dex_line "sometimes appears"
-	dex_line "above ground."
+	dex_text "Viu a un metre sota"
+	dex_line "terra, on s`alimenta"
+	dex_line "d`arrels."
+	dex_line "De tant en tant"
+	dex_line "surt a la"
+	dex_line "superf3cie."
 	dex_end
 
 TaurosPokedexDescription: ; 0x2d51e
-	dex_text "When it targets"
-	dex_line "an enemy, it"
-	dex_line "charges furiously"
-	dex_line "while whipping its"
-	dex_line "body with its"
-	dex_line "long tails."
+	dex_text "Quan s`enfoca en"
+	dex_line "l`enemic, carrega"
+	dex_line "exaltat contra ell"
+	dex_line "mentre es fueteja"
+	dex_line "el cos amb les seves"
+	dex_line "llargues cues."
 	dex_end
 
 FarfetchdPokedexDescription: ; 0x2d57a
-	dex_text "The sprig of"
-	dex_line "green onions it"
-	dex_line "holds is its"
-	dex_line "weapon. It is"
-	dex_line "used much like a"
-	dex_line "metal sword."
+	dex_text "Fa servir com a arma"
+	dex_line "el porro que porta."
+	dex_line "El branda com si"
+	dex_line "es tractés d`una"
+	dex_line "espasa de ferro."
+	dex_line ""
 	dex_end
 
 VenonatPokedexDescription: ; 0x2d5d0
-	dex_text "Lives in the"
-	dex_line "shadows of tall"
-	dex_line "trees where it"
-	dex_line "eats insects. It"
-	dex_line "is attracted by"
-	dex_line "light at night."
+	dex_text "S`amaga entre les"
+	dex_line "ombres dels llargs"
+	dex_line "arbres, on menja"
+	dex_line "insectes. A la nit"
+	dex_line "es veu atret"
+	dex_line "per la llum."
 	dex_end
 
 DragonitePokedexDescription: ; 0x2d62d
-	dex_text "An extremely"
-	dex_line "rarely seen"
-	dex_line "marine POKéMON."
-	dex_line "Its intelligence"
-	dex_line "is said to match"
-	dex_line "that of humans."
+	dex_text "Un POKéMON mar3"
+	dex_line "extremament dif3cil"
+	dex_line "de veure. Es diu"
+	dex_line "que la seva intel6li-"
+	dex_line "g7ncia és comparable"
+	dex_line "a la dels humans."
 	dex_end
 
 DoduoPokedexDescription: ; 0x2d688
-	dex_text "A bird that makes"
-	dex_line "up for its poor"
-	dex_line "flying with its"
-	dex_line "fast foot speed."
-	dex_line "Leaves giant"
-	dex_line "footprints."
+	dex_text "Una au que compensa"
+	dex_line "el seu pobre vol"
+	dex_line "amb la seva rapidesa"
+	dex_line "quan corre."
+	dex_line "Deixa unes petjades"
+	dex_line "gegants."
 	dex_end
 
 PoliwagPokedexDescription: ; 0x2d6e4
-	dex_text "Its newly grown"
-	dex_line "legs prevent it"
-	dex_line "from running. It"
-	dex_line "appears to prefer"
-	dex_line "swimming than"
-	dex_line "trying to stand."
+	dex_text "Com que les cames" 
+	dex_line "acabades de cr7ixer"
+	dex_line "no li permeten c5rrer,"
+	dex_line "prefereix nedar a"
+	dex_line "posar-se dempeus."
+	dex_line ""
 	dex_end
 
 JynxPokedexDescription: ; 0x2d746
-	dex_text "It seductively"
-	dex_line "wiggles its hips"
-	dex_line "as it walks. It"
-	dex_line "can cause people"
-	dex_line "to dance in"
-	dex_line "unison with it."
+	dex_text "Mou els malucs"
+	dex_line "seductorament al"
+	dex_line "caminar. Pot fer"
+	dex_line "que la gent balli"
+	dex_line "a l`un3son."
+	dex_line ""
 	dex_end
 
 MoltresPokedexDescription: ; 0x2d7a3
-	dex_text "Known as the"
-	dex_line "legendary bird of"
-	dex_line "fire. Every flap"
-	dex_line "of its wings"
-	dex_line "creates a dazzling"
-	dex_line "flash of flames."
+	dex_text "Conegut com a l`au"
+	dex_line "llegend4ria de foc."
+	dex_line "Amb cada aleteig de"
+	dex_line "les seves ales crea"
+	dex_line "flames brillants."
+	dex_line ""
 	dex_end
 
 ArticunoPokedexDescription: ; 0x2d804
-	dex_text "A legendary bird"
-	dex_line "POKéMON that is"
-	dex_line "said to appear to"
-	dex_line "doomed people who"
-	dex_line "are lost in icy"
-	dex_line "mountains."
+	dex_text "Una au POKéMON "
+	dex_line "llegend4ria. Apareix"
+	dex_line "davant de la gent"
+	dex_line "que s`ha perdut"
+	dex_line "a les muntanyes"
+	dex_line "gla9ades."
 	dex_end
 
 ZapdosPokedexDescription: ; 0x2d864
-	dex_text "A legendary bird"
-	dex_line "POKéMON that is"
-	dex_line "said to appear"
-	dex_line "from clouds while"
-	dex_line "dropping enormous"
-	dex_line "lightning bolts."
+	dex_text "Una au POKéMON"
+	dex_line "llegend4ria. Diuen que"
+	dex_line "apareix dels n2vols"
+	dex_line "mentre crea enormes"
+	dex_line "llamps."
+	dex_line ""
 	dex_end
 
 DittoPokedexDescription: ; 0x2d8c9
-	dex_text "Capable of copying"
-	dex_line "an enemy`s genetic"
-	dex_line "code to instantly"
-	dex_line "transform itself"
-	dex_line "into a duplicate"
-	dex_line "of the enemy."
+	dex_text "Pot copiar el codi"
+	dex_line "gen7tic de l`enemic"
+	dex_line "i transformar-se en"
+	dex_line "una copia exacta"
+	dex_line "de forma immediata."
+	dex_line ""
 	dex_end
 
 MeowthPokedexDescription: ; 0x2d931
-	dex_text "Adores circular"
-	dex_line "objects. Wanders"
-	dex_line "the streets on a"
-	dex_line "nightly basis to"
-	dex_line "look for dropped"
-	dex_line "loose change."
+	dex_text "Adora els objectes"
+	dex_line "circulars. Va de nit"
+	dex_line "pels carrers"
+	dex_line "a la cerca de monedes"
+	dex_line "perdudes."
+	dex_line ""
 	dex_end
 
 KrabbyPokedexDescription: ; 0x2d993
-	dex_text "Its pincers are"
-	dex_line "not only powerful"
-	dex_line "weapons, they are"
-	dex_line "used for balance"
-	dex_line "when walking"
-	dex_line "sideways."
+	dex_text "Les seves pinces no"
+	dex_line "només s5n armes"
+	dex_line "poderoses, sin5 que"
+	dex_line "també l`estabi-"
+	dex_line "litzen quan camina"
+	dex_line "de costat."
 	dex_end
 
 VulpixPokedexDescription: ; 0x2d9ef
-	dex_text "At the time of"
-	dex_line "birth, it has"
-	dex_line "just one tail."
-	dex_line "The tail splits"
-	dex_line "from its tip as"
-	dex_line "it grows older."
+	dex_text "Quan neix, només té"
+	dex_line "una cua. Aquesta es"
+	dex_line "va dividint de la"
+	dex_line "punta a mesura que"
+	dex_line "creix."
+	dex_line ""
 	dex_end
 
 NinetalesPokedexDescription: ; 0x2da4b
-	dex_text "Very smart and"
-	dex_line "very vengeful."
-	dex_line "Grabbing one of"
-	dex_line "its many tails"
-	dex_line "could result in a"
-	dex_line "1000-year curse."
+	dex_text "Molt llest per8"
+	dex_line "també venjatiu."
+	dex_line "Agafar-li una de les"
+	dex_line "seves cues podria"
+	dex_line "comportar una male-"
+	dex_line "dicci5 de mil anys."
 	dex_end
 
 PikachuPokedexDescription: ; 0x2daab
-	dex_text "When several of"
-	dex_line "these POKéMON"
-	dex_line "gather, their"
-	dex_line "electricity could"
-	dex_line "build and cause"
-	dex_line "lightning storms."
+	dex_text "Quan aquest POKéMON"
+	dex_line "s`agrupa amb altres"
+	dex_line "Pikatxus, la seva"
+	dex_line "energia pot causar"
+	dex_line "tempestes"
+	dex_line "el7ctriques."
 	dex_end
 
 RaichuPokedexDescription: ; 0x2db0b
-	dex_text "Its long tail"
-	dex_line "serves as a"
-	dex_line "ground to protect"
-	dex_line "itself from its"
-	dex_line "own high voltage"
-	dex_line "power."
+	dex_text "La seva cua llarga"
+	dex_line "li serveix com una"
+	dex_line "presa de terra per"
+	dex_line "protegir-se de les"
+	dex_line "seves desc4rregues"
+	dex_line "de gran intensitat."
 	dex_end
 
 DratiniPokedexDescription: ; 0x2db5f
-	dex_text "Long considered a"
-	dex_line "mythical POKéMON"
-	dex_line "until recently"
-	dex_line "when a small"
-	dex_line "colony was found"
-	dex_line "living underwater."
+	dex_text "Considerat com un"
+	dex_line "POKéMON m3tic des de"
+	dex_line "fa temps fins que,"
+	dex_line "fa poc, se`n va trobar"
+	dex_line "una petita col8nia"
+	dex_line "submarina."
 	dex_end
 
 DragonairPokedexDescription: ; 0x2dbc2
-	dex_text "A mystical POKéMON"
-	dex_line "that exudes a"
-	dex_line "gentle aura."
-	dex_line "Has the ability"
-	dex_line "to change climate"
-	dex_line "conditions."
+	dex_text "Un POKéMON m3stic"
+	dex_line "envoltat d`una"
+	dex_line "subtil aura."
+	dex_line "Té l`habilitat de"
+	dex_line "canviar la"
+	dex_line "climatologia."
 	dex_end
 
 KabutoPokedexDescription: ; 0x2dc1e
-	dex_text "A POKéMON that"
-	dex_line "was resurrected"
-	dex_line "from a fossil"
-	dex_line "found in what was"
-	dex_line "once the ocean"
-	dex_line "floor eons ago."
+	dex_text "Un POKéMON f8ssil"
+	dex_line "trobat en el que fa"
+	dex_line "eons era el fons"
+	dex_line "mar3, ressucitat amb"
+	dex_line "tecnologia punta"
+	dex_line "de l`Illa Granat."
 	dex_end
 
 KabutopsPokedexDescription: ; 0x2dc7c
-	dex_text "Its sleek shape is"
-	dex_line "perfect for swim-"
-	dex_line "ming. It slashes"
-	dex_line "prey with its"
-	dex_line "claws and drains"
-	dex_line "the body fluids."
+	dex_text "La seva forma"
+	dex_line "és perfecta per"
+	dex_line "nedar. Talla preses"
+	dex_line "amb les afilades"
+	dex_line "extremitats i"
+	dex_line "n`extreu els l3quids."
 	dex_end
 
 HorseaPokedexDescription: ; 0x2dce2
-	dex_text "Known to shoot"
-	dex_line "down flying bugs"
-	dex_line "with precision"
-	dex_line "blasts of ink"
-	dex_line "from the surface"
-	dex_line "of the water."
+	dex_text "POKéMON que dispara"
+	dex_line "insectes voladors"
+	dex_line "amb trets de tinta"
+	dex_line "precisos des de la"
+	dex_line "superf3cie marina."
+	dex_line ""
 	dex_end
 
 SeadraPokedexDescription: ; 0x2dd3e
-	dex_text "Capable of swim-"
-	dex_line "ming backwards by"
-	dex_line "rapidly flapping"
-	dex_line "its wing-like"
-	dex_line "pectoral fins and"
-	dex_line "stout tail."
+	dex_text "Pot nedar enrere"
+	dex_line "movent r4pidament"
+	dex_line "les aletes pectorals"
+	dex_line "i la cua robusta."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 SandshrewPokedexDescription: ; 0x2dd9e
-	dex_text "Burrows deep"
-	dex_line "underground in"
-	dex_line "arid locations"
-	dex_line "far from water."
-	dex_line "It only emerges"
-	dex_line "to hunt for food."
+	dex_text "Viu a molta profundi-"
+	dex_line "tat sota terra en"
+	dex_line "zones 4rides lluny"
+	dex_line "de l`aigua."
+	dex_line "Només surt quan"
+	dex_line "ha de buscar menjar."
 	dex_end
 
 SandslashPokedexDescription: ; 0x2ddfb
-	dex_text "Curls up into a"
-	dex_line "spiny ball when"
-	dex_line "threatened. It"
-	dex_line "can roll while"
-	dex_line "curled up to"
-	dex_line "attack or escape."
+	dex_text "Quan est4 en perill"
+	dex_line "es torna una bola"
+	dex_line "punxeguda. Pot"
+	dex_line "rodar en aquest"
+	dex_line "estat per escapar-se"
+	dex_line "o atacar."
 	dex_end
 
 OmanytePokedexDescription: ; 0x2de58
-	dex_text "Although long"
-	dex_line "extinct, in rare"
-	dex_line "cases, it can be"
-	dex_line "genetically"
-	dex_line "resurrected from"
-	dex_line "fossils."
+	dex_text "Tot i estar extingit"
+	dex_line "de fa molts anys"
+	dex_line "pot ressucitar"
+	dex_line "gen7ticament amb la"
+	dex_line "tecnologia de l`Illa"
+	dex_line "Granat."
 	dex_end
 
 OmastarPokedexDescription: ; 0x2deae
-	dex_text "A prehistoric"
-	dex_line "POKéMON that died"
-	dex_line "out when its"
-	dex_line "heavy shell made"
-	dex_line "it impossible to"
-	dex_line "catch prey."
+	dex_text "Un POKéMON ancestral"
+	dex_line "que va morir quan"
+	dex_line "la seva closca"
+	dex_line "feixuga va fer"
+	dex_line "impossible que agafés"
+	dex_line "les seves preses."
 	dex_end
 
 JigglypuffPokedexDescription: ; 0x2df09
-	dex_text "When its huge eyes"
-	dex_line "light up, it sings"
-	dex_line "a mysteriously"
-	dex_line "soothing melody"
-	dex_line "that lulls its"
-	dex_line "enemies to sleep."
+	dex_text "Quan se li il6luminen"
+	dex_line "els ulls, canta una"
+	dex_line "melodia tranquil6la"
+	dex_line "i misteriosa que fa"
+	dex_line "adormir els enemics."
+	dex_line ""
 	dex_end
 
 WigglytuffPokedexDescription: ; 0x2df6f
-	dex_text "The body is soft"
-	dex_line "and rubbery. When"
-	dex_line "angered, it will"
-	dex_line "suck in air and"
-	dex_line "inflate itself to"
-	dex_line "an enormous size."
+	dex_text "El seu cos és suau i"
+	dex_line "semblant a la goma."
+	dex_line "Quan s`enfada agafa"
+	dex_line "aire i s`infla"
+	dex_line "enormement."
+	dex_line ""
 	dex_end
 
 EeveePokedexDescription: ; 0x2dfd7
-	dex_text "Its genetic code"
-	dex_line "is irregular."
-	dex_line "It may mutate if"
-	dex_line "it is exposed to"
-	dex_line "radiation from"
-	dex_line "element STONEs."
+	dex_text "Té un codi gen7tic"
+	dex_line "irregular."
+	dex_line "Pot mutar si se"
+	dex_line "s`exposa a l`energia"
+	dex_line "que emeten les "
+	dex_line "pedres elementals."
 	dex_end
 
 FlareonPokedexDescription: ; 0x2e037
-	dex_text "When storing"
-	dex_line "thermal energy in"
-	dex_line "its body, its"
-	dex_line "temperature could"
-	dex_line "soar to over 1600"
-	dex_line "degrees."
+	dex_text "Quan emmagatzema"
+	dex_line "energia t7rmica al"
+	dex_line "cos, pot arribar a una"
+	dex_line "temperatura de mil sis-"
+	dex_line "cents graus celsius."
+	dex_line ""
 	dex_end
 
 JolteonPokedexDescription: ; 0x2e091
-	dex_text "It accumulates"
-	dex_line "negative ions in"
-	dex_line "the atmosphere to"
-	dex_line "blast out 10000-"
-	dex_line "volt lightning"
-	dex_line "bolts."
+	dex_text "Acumula ions nega-"
+	dex_line "tius de l`atmosfera"
+	dex_line "per descarregar"
+	dex_line "llampecs de 10.000"
+	dex_line "volts."
+	dex_line ""
 	dex_end
 
 VaporeonPokedexDescription: ; 0x2e0ea
-	dex_text "Lives close to"
-	dex_line "water. Its long"
-	dex_line "tail is ridged"
-	dex_line "with a fin which"
-	dex_line "is often mistaken"
-	dex_line "for a mermaid`s."
+	dex_text "Viu a prop de zones"
+	dex_line "amb aigua. La seva"
+	dex_line "cua acaba amb una"
+	dex_line "forma semblant a"
+	dex_line "la de les sirenes."
+	dex_line ""
 	dex_end
 
 MachopPokedexDescription: ; 0x2e14c
-	dex_text "Loves to build"
-	dex_line "its muscles."
-	dex_line "It trains in all"
-	dex_line "styles of martial"
-	dex_line "arts to become"
-	dex_line "even stronger."
+	dex_text "Li encanta desenvo-"
+	dex_line "lupar el seu cos."
+	dex_line "Entrena totes les"
+	dex_line "arts marcials per"
+	dex_line "arribar a ser"
+	dex_line "encara més fort."
 	dex_end
 
 ZubatPokedexDescription: ; 0x2e1a9
-	dex_text "Forms colonies in"
-	dex_line "perpetually dark"
-	dex_line "places. Uses"
-	dex_line "ultrasonic waves"
-	dex_line "to identify and"
-	dex_line "approach targets."
+	dex_text "Forma col8nies en"
+	dex_line "llocs on és sempre"
+	dex_line "fosc. Empra ones"
+	dex_line "ultras8niques per"
+	dex_line "identificar l`entorn"
+	dex_line "i moure`s."
 	dex_end
 
 EkansPokedexDescription: ; 0x2e20c
-	dex_text "Moves silently"
-	dex_line "and stealthily."
-	dex_line "Eats the eggs of"
-	dex_line "birds, such as"
-	dex_line "PIDGEY and"
-	dex_line "SPEAROW, whole."
+	dex_text "Es mou en silenci i"
+	dex_line "sigilosament."
+	dex_line "Es menja els ous"
+	dex_line "dels Xiuladins i"
+	dex_line "dels Pardimonis."
+	dex_line ""
 	dex_end
 
 ParasPokedexDescription: ; 0x2e266
-	dex_text "Burrows to suck"
-	dex_line "tree roots. The"
-	dex_line "mushrooms on its"
-	dex_line "back grow by draw-"
-	dex_line "ing nutrients from"
-	dex_line "the bug host."
+	dex_text "Excava per absorbir"
+	dex_line "arrels d`arbres. Els"
+	dex_line "bolets de l`esquena"
+	dex_line "creixen a mesura que"
+	dex_line "absorbeix nutrients."
+	dex_line ""
 	dex_end
 
 PoliwhirlPokedexDescription: ; 0x2e2cb
-	dex_text "Capable of living"
-	dex_line "in or out of"
-	dex_line "water. When out"
-	dex_line "of water, it"
-	dex_line "sweats to keep"
-	dex_line "its body slimy."
+	dex_text "Pot viure dins i"
+	dex_line "fora de l`aigua. "
+	dex_line "Fora de l`aigua,"
+	dex_line "sura per mantenir el"
+	dex_line "seu cos llefisc5s."
+	dex_line ""
 	dex_end
 
 PoliwrathPokedexDescription: ; 0x2e326
-	dex_text "An adept swimmer"
-	dex_line "at both the front"
-	dex_line "crawl and breast"
-	dex_line "stroke. Easily"
-	dex_line "overtakes the best"
-	dex_line "human swimmers."
+	dex_text "Un nedador versat"
+	dex_line "en les modalitats"
+	dex_line "de crol i bra9a."
+	dex_line "Supera f4cilment"
+	dex_line "qualsevol nedador"
+	dex_line "hum4."
 	dex_end
 
 WeedlePokedexDescription: ; 0x2e38c
-	dex_text "Often found in"
-	dex_line "forests, eating"
-	dex_line "leaves."
-	dex_line "It has a sharp"
-	dex_line "venomous stinger"
-	dex_line "on its head."
+	dex_text "Viu a boscos"
+	dex_line "i menja fulles."
+	dex_line "Té una punxa"
+	dex_line "verinosa al cap."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 KakunaPokedexDescription: ; 0x2e3e0
-	dex_text "Almost incapable"
-	dex_line "of moving, this"
-	dex_line "POKéMON can only"
-	dex_line "harden its shell"
-	dex_line "to protect itself"
-	dex_line "from predators."
+	dex_text "Quasi no es pot"
+	dex_line "moure. Aquest"
+	dex_line "POKéMON només es pot"
+	dex_line "enfortir la closca"
+	dex_line "per protegir-se dels"
+	dex_line "depredadors."
 	dex_end
 
 BeedrillPokedexDescription: ; 0x2e445
-	dex_text "Flies at high"
-	dex_line "speed and attacks"
-	dex_line "using its large"
-	dex_line "venomous stingers"
-	dex_line "on its forelegs"
-	dex_line "and tail."
+	dex_text "Vola a alta"
+	dex_line "velocitat i ataca"
+	dex_line "fent servir els"
+	dex_line "agullons verinosos"
+	dex_line "de la cua i les"
+	dex_line "potes davanteres."
 	dex_end
 
 DodrioPokedexDescription: ; 0x2e4a1
-	dex_text "Uses its three"
-	dex_line "brains to execute"
-	dex_line "complex plans."
-	dex_line "While two heads"
-	dex_line "sleep, one head"
-	dex_line "stays awake."
+	dex_text "Maquina plans amb"
+	dex_line "els tres cervells"
+	dex_line "i els executa."
+	dex_line "Sempre hi ha un cap"
+	dex_line "despert mentre els"
+	dex_line "altres dormen."
 	dex_end
 
 PrimeapePokedexDescription: ; 0x2e4fe
-	dex_text "Always furious"
-	dex_line "and tenacious to"
-	dex_line "boot. It will not"
-	dex_line "abandon chasing"
-	dex_line "its quarry until"
-	dex_line "it is caught."
+	dex_text "Sempre iracund i"
+	dex_line "a punt d`explotar."
+	dex_line "Mai para de seguir"
+	dex_line "la presa fins que no"
+	dex_line "la captura."
+	dex_line ""
 	dex_end
 
 DugtrioPokedexDescription: ; 0x2e55f
-	dex_text "A team of DIGLETT"
-	dex_line "triplets."
-	dex_line "It triggers huge"
-	dex_line "earthquakes by"
-	dex_line "burrowing 60 miles"
-	dex_line "underground."
+	dex_text "Un trio de Talpis."
+	dex_line "Causa terratr7mols"
+	dex_line "mentre excava a noranta"
+	dex_line "Km sota terra."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 VenomothPokedexDescription: ; 0x2e5bb
-	dex_text "The dust-like"
-	dex_line "scales covering"
-	dex_line "its wings are"
-	dex_line "color coded to"
-	dex_line "indicate the kinds"
-	dex_line "of poison it has."
+	dex_text "La pols de les ales"
+	dex_line "és de diferent color"
+	dex_line "depenent de la"
+	dex_line "metzina que porti."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 DewgongPokedexDescription: ; 0x2e61b
-	dex_text "Stores thermal"
-	dex_line "energy in its"
-	dex_line "body. Swims at a"
-	dex_line "steady 8 knots"
-	dex_line "even in intensely"
-	dex_line "cold waters. "
+	dex_text "Emmagatzema energia"
+	dex_line "t7rmica al cos."
+	dex_line "Neda a una velocitat"
+	dex_line "m4xima de 10 nusos"
+	dex_line "fins i tot en aigues"
+	dex_line "fredes. "
 	dex_end
 
 CaterpiePokedexDescription: ; 0x2e678
-	dex_text "Its short feet"
-	dex_line "are tipped with"
-	dex_line "suction pads that"
-	dex_line "enable it to"
-	dex_line "tirelessly climb"
-	dex_line "slopes and walls."
+	dex_text "Les potetes que té"
+	dex_line "tenen ventoses que"
+	dex_line "li permeten arrapar-"
+	dex_line "se a superf3cies"
+	dex_line "inclinades com"
+	dex_line "murs i arbres."
 	dex_end
 
 MetapodPokedexDescription: ; 0x2e6d9
-	dex_text "This POKéMON is"
-	dex_line "vulnerable to"
-	dex_line "attack while its"
-	dex_line "shell is soft,"
-	dex_line "exposing its weak"
-	dex_line "and tender body."
+	dex_text "Aquest POKéMON és"
+	dex_line "vulnerable als atacs"
+	dex_line "quan la closca es"
+	dex_line "torna tova, perque"
+	dex_line "exposa el seu cos"
+	dex_line "feble."
 	dex_end
 
 ButterfreePokedexDescription: ; 0x2e73a
-	dex_text "In battle, it"
-	dex_line "flaps its wings"
-	dex_line "at high speed to"
-	dex_line "release highly"
-	dex_line "toxic dust into"
-	dex_line "the air."
+	dex_text "En combat, aleteja"
+	dex_line "a molta velocitat"
+	dex_line "per alliberar pols"
+	dex_line "molt verinosa a "
+	dex_line "l`aire."
+	dex_line ""
 	dex_end
 
 MachampPokedexDescription: ; 0x2e791
-	dex_text "Using its heavy"
-	dex_line "muscles, it throws"
-	dex_line "powerful punches"
-	dex_line "that can send the"
-	dex_line "victim clear over"
-	dex_line "the horizon. "
+	dex_text "Utilitzant el cos"
+	dex_line "corpulent, llan9a"
+	dex_line "cops de puny molt potents"
+	dex_line "que envien l`oponent"
+	dex_line "fins a l`horitz5 i"
+	dex_line "més enll4."
 	dex_end
 
 GolduckPokedexDescription: ; 0x2e7f7
-	dex_text "Often seen swim-"
-	dex_line "ming elegantly by"
-	dex_line "lake shores. It"
-	dex_line "is often mistaken"
-	dex_line "for the Japanese"
-	dex_line "monster, Kappa."
+	dex_text "Sovint se`l veu"
+	dex_line "nedar elegantment"
+	dex_line "a llacs."
+	dex_line "Se`l confon sovint"
+	dex_line "amb els follets Kappa."
+	dex_line ""
 	dex_end
 
 HypnoPokedexDescription: ; 0x2e85d
-	dex_text "When it locks eyes"
-	dex_line "with an enemy, it"
-	dex_line "will use a mix of"
-	dex_line "PSI moves such as"
-	dex_line "HYPNOSIS and"
-	dex_line "CONFUSION."
+	dex_text "Quan creua la mirada"
+	dex_line "amb el rival, utilitza"
+	dex_line "diversos moviments"
+	dex_line "PSI com hipn8si i"
+	dex_line "confusi5."
+	dex_line ""
 	dex_end
 
 GolbatPokedexDescription: ; 0x2e8be
-	dex_text "Once it strikes,"
-	dex_line "it will not stop"
-	dex_line "draining energy"
-	dex_line "from the victim"
-	dex_line "even if it gets"
-	dex_line "too heavy to fly."
+	dex_text "Quan ataca al rival,"
+	dex_line "no para de xuclar-li"
+	dex_line "la sang encara que"
+	dex_line "es torni tan pesant"
+	dex_line "que no pot volar."
+	dex_line ""
 	dex_end
 
 MewtwoPokedexDescription: ; 0x2e922
-	dex_text "It was created by"
-	dex_line "a scientist after"
-	dex_line "years of horrific"
-	dex_line "gene splicing and"
-	dex_line "DNA engineering"
-	dex_line "experiments."
+	dex_text "Va ser creat per un"
+	dex_line "grup de cient3fics"
+	dex_line "després d`anys de"
+	dex_line "terribles proves"
+	dex_line "gen7tiques amb l`ADN"
+	dex_line "de l`Alfel3."
 	dex_end
 
 SnorlaxPokedexDescription: ; 0x2e987
-	dex_text "Very lazy. Just"
-	dex_line "eats and sleeps."
-	dex_line "As its rotund"
-	dex_line "bulk builds, it"
-	dex_line "becomes steadily"
-	dex_line "more slothful."
+	dex_text "Molt dropo. Només"
+	dex_line "menja i dorm."
+	dex_line "A mesura que"
+	dex_line "s`engreixa, es torna"
+	dex_line "cada cop més i més"
+	dex_line "mandr5s."
 	dex_end
 
 MagikarpPokedexDescription: ; 0x2e9e6
-	dex_text "In the distant"
-	dex_line "past, it was"
-	dex_line "somewhat stronger"
-	dex_line "than the horribly"
-	dex_line "weak descendants"
-	dex_line "that exist today."
+	dex_text "Fa eons eren bastant"
+	dex_line "més poderosos que"
+	dex_line "els seus descendents"
+	dex_line "terriblement d7bils"
+	dex_line "d`avui dia."
+	dex_line ""
 	dex_end
 
 MukPokedexDescription: ; 0x2ea49
-	dex_text "Thickly covered"
-	dex_line "with a filthy,"
-	dex_line "vile sludge. It"
-	dex_line "is so toxic, even"
-	dex_line "its footprints"
-	dex_line "contain poison."
+	dex_text "Est4 cobert amb"
+	dex_line "un dens i immund"
+	dex_line "llim. Aquest és"
+	dex_line "tan t8xic, que"
+	dex_line "les seves petjades"
+	dex_line "contenen ver3."
 	dex_end
 
 KinglerPokedexDescription: ; 0x2eaa9
-	dex_text "The large pincer"
-	dex_line "has 10000 hp of"
-	dex_line "crushing power."
-	dex_line "However, its huge"
-	dex_line "size makes it"
-	dex_line "unwieldy to use."
+	dex_text "La grapa gran"
+	dex_line "té uns 10.000 CV de"
+	dex_line "devastador poder."
+	dex_line "Tot i que la seva"
+	dex_line "extraordin4ria mida"
+	dex_line "la fa poc maniobrable."
 	dex_end
 
 CloysterPokedexDescription: ; 0x2eb0b
-	dex_text "When attacked, it"
-	dex_line "launches its"
-	dex_line "horns in quick"
-	dex_line "volleys. Its"
-	dex_line "innards have"
-	dex_line "never been seen."
+	dex_text "Quan l`ataquen,"
+	dex_line "dispara les banyes"
+	dex_line "repetidament."
+	dex_line "Mai s`ha vist"
+	dex_line "el seu interior."
+	dex_line ""
 	dex_end
 
 ElectrodePokedexDescription: ; 0x2eb64
-	dex_text "It stores electric"
-	dex_line "energy under very"
-	dex_line "high pressure."
-	dex_line "It often explodes"
-	dex_line "with little or no"
-	dex_line "provocation."
+	dex_text "Emmagatzema"
+	dex_line "electricitat sota"
+	dex_line "molta pressi5."
+	dex_line "Explota sovint"
+	dex_line "encara que no se`l"
+	dex_line "provoqui."
 	dex_end
 
 ClefablePokedexDescription: ; 0x2ebc9
-	dex_text "A timid fairy"
-	dex_line "POKéMON that is"
-	dex_line "rarely seen. It"
-	dex_line "will run and hide"
-	dex_line "the moment it"
-	dex_line "senses people."
+	dex_text "Una fada POKéMON"
+	dex_line "t3mida i molt dif3cil"
+	dex_line "de veure."
+	dex_line "S`amaga quan sent"
+	dex_line "persones acostar-se."
+	dex_line ""
 	dex_end
 
 WeezingPokedexDescription: ; 0x2ec26
-	dex_text "Where two kinds"
-	dex_line "of poison gases"
-	dex_line "meet, 2 KOFFINGs"
-	dex_line "can fuse into a"
-	dex_line "WEEZING over many"
-	dex_line "years."
+	dex_text "Format per dos"
+	dex_line "tipus de gasos."
+	dex_line "Els Astrefum es poden"
+	dex_line "fusionar en Astreg4s"
+	dex_line "al cap de molts."
+	dex_line "anys."
 	dex_end
 
 PersianPokedexDescription: ; 0x2ec80
-	dex_text "Although its fur"
-	dex_line "has many admirers,"
-	dex_line "it is tough to"
-	dex_line "raise as a pet"
-	dex_line "because of its"
-	dex_line "fickle meanness."
+	dex_text "Encara que se"
+	dex_line "l`admira pel seu"
+	dex_line "pelatge, és dif3cil"
+	dex_line "criar-lo com a mascota"
+	dex_line "perqu7 és molt"
+	dex_line "primmirat."
 	dex_end
 
 MarowakPokedexDescription: ; 0x2ece2
-	dex_text "The bone it holds"
-	dex_line "is its key weapon."
-	dex_line "It throws the"
-	dex_line "bone skillfully"
-	dex_line "like a boomerang"
-	dex_line "to KO targets."
+	dex_text "L`os que subjecta"
+	dex_line "és la seva arma."
+	dex_line "El tira com si es"
+	dex_line "tractés d`un bumerang"
+	dex_line "per deixar el rival"
+	dex_line "atordit."
 	dex_end
 
 HaunterPokedexDescription: ; 0x2ed45
-	dex_text "Because of its"
-	dex_line "ability to slip"
-	dex_line "through block"
-	dex_line "walls, it is said"
-	dex_line "to be from an-"
-	dex_line "other dimension."
+	dex_text "Com que pot "
+	dex_line "atravessar parets"
+	dex_line "es diu que prové"
+	dex_line "d`una altra dimensi5."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 AbraPokedexDescription: ; 0x2eda4
-	dex_text "Using its ability"
-	dex_line "to read minds, it"
-	dex_line "will identify"
-	dex_line "impending danger"
-	dex_line "and TELEPORT to"
-	dex_line "safety."
+	dex_text "Utilitza l`habilitat"
+	dex_line "de llegir ments per"
+	dex_line "detectar perill i"
+	dex_line "teletransportar-se."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 AlakazamPokedexDescription: ; 0x2edff
-	dex_text "Its brain can out-"
-	dex_line "perform a super-"
-	dex_line "computer."
-	dex_line "Its intelligence"
-	dex_line "quotient is said"
-	dex_line "to be 5,000."
+	dex_text "El seu cap pot superar"
+	dex_line "un superordinador."
+	dex_line "Es diu que té un CI"
+	dex_line "de cinc mil."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 PidgeottoPokedexDescription: ; 0x2ee5c
-	dex_text "Very protective"
-	dex_line "of its sprawling"
-	dex_line "territorial area,"
-	dex_line "this POKéMON will"
-	dex_line "fiercely peck at"
-	dex_line "any intruder."
+	dex_text "Protegeix amb fervor"
+	dex_line "la seva terra."
+	dex_line "Sempre l`est4 vigilant"
+	dex_line "i pica ferotgement"
+	dex_line "els intrusos."
+	dex_line ""
 	dex_end
 
 PidgeotPokedexDescription: ; 0x2eec0
-	dex_text "When hunting, it"
-	dex_line "skims the surface"
-	dex_line "of water at high"
-	dex_line "speed to pick off"
-	dex_line "unwary prey such"
-	dex_line "as MAGIKARP."
+	dex_text "Agafa els Peixorfos"
+	dex_line "de la superf3cie de"
+	dex_line "l`aigua a molta velo-"
+	dex_line "citat durant les"
+	dex_line "caceres."
+	dex_line ""
 	dex_end
 
 StarmiePokedexDescription: ; 0x2ef24
-	dex_text "Its central core"
-	dex_line "glows with the"
-	dex_line "seven colors of"
-	dex_line "the rainbow. Some"
-	dex_line "people value the"
-	dex_line "core as a gem."
+	dex_text "El nucli central"
+	dex_line "brilla amb els set"
+	dex_line "colors de l`arc de"
+	dex_line "Sant Mart3. Alguna"
+	dex_line "gent el compara"
+	dex_line "amb una gemma."
 	dex_end
 
 BulbasaurPokedexDescription: ; 0x2ef86
-	dex_text "A strange seed was"
-	dex_line "planted on its"
-	dex_line "back at birth."
-	dex_line "The plant sprouts"
-	dex_line "and grows with"
-	dex_line "this POKéMON."
+	dex_text "Té una llavor estranya"
+	dex_line "plantada al llom des"
+	dex_line "que va néixer."
+	dex_line "El bulb brota"
+	dex_line "i creix amb el"
+	dex_line "POKéMON."
 	dex_end
 
 VenusaurPokedexDescription: ; 0x2efe6
-	dex_text "The plant blooms"
-	dex_line "when it is"
-	dex_line "absorbing solar"
-	dex_line "energy. It stays"
-	dex_line "on the move to"
-	dex_line "seek sunlight."
+	dex_text "La planta floreix"
+	dex_line "quan absorbeix ener-"
+	dex_line "gia solar. Sempre es"
+	dex_line "mou buscant la llum"
+	dex_line "del sol."
+	dex_line ""
 	dex_end
 
 TentacruelPokedexDescription: ; 0x2f041
-	dex_text "The tentacles are"
-	dex_line "normally kept"
-	dex_line "short. On hunts,"
-	dex_line "they are extended"
-	dex_line "to ensnare and"
-	dex_line "immobilize prey."
+	dex_text "Manté els tentacles"
+	dex_line "retr4ctils curts."
+	dex_line "En la cacera, els"
+	dex_line "estén per enganxar"
+	dex_line "i immobilitzar"
+	dex_line "la presa."
 	dex_end
 
 GoldeenPokedexDescription: ; 0x2f0a4
-	dex_text "Its tail fin"
-	dex_line "billows like an"
-	dex_line "elegant ballroom"
-	dex_line "dress, giving it"
-	dex_line "the nickname of"
-	dex_line "the Water Queen."
+	dex_text "Quan neda, la cua"
+	dex_line "se li belluga com si"
+	dex_line "es tractés d`un vestit"
+	dex_line "elegant, és per"
+	dex_line "aix8 que li diuen"
+	dex_line "la reina de l`aigua."
 	dex_end
 
 SeakingPokedexDescription: ; 0x2f104
-	dex_text "In the autumn"
-	dex_line "spawning season,"
-	dex_line "they can be seen"
-	dex_line "swimming power-"
-	dex_line "fully up rivers"
-	dex_line "and creeks."
+	dex_text "A la tardor, quan"
+	dex_line "es reprodueixen,"
+	dex_line "es poden veure"
+	dex_line "nedar amb energia"
+	dex_line "per rius i"
+	dex_line "rierols."
 	dex_end
 
 PonytaPokedexDescription: ; 0x2f160
-	dex_text "Its hooves are 10"
-	dex_line "times harder than"
-	dex_line "diamonds. It can"
-	dex_line "trample anything"
-	dex_line "completely flat"
-	dex_line "in little time."
+	dex_text "Té unes peJlles deu"
+	dex_line "vegades més dures"
+	dex_line "que el diamant. Les"
+	dex_line "seves guitzes poden"
+	dex_line "ser letals."
+	dex_line ""
 	dex_end
 
 RapidashPokedexDescription: ; 0x2f1c6
-	dex_text "Very competitive,"
-	dex_line "this POKéMON will"
-	dex_line "chase anything"
-	dex_line "that moves fast"
-	dex_line "in the hopes of"
-	dex_line "racing it."
+	dex_text "Un POKéMON molt"
+	dex_line "competitiu,"
+	dex_line "persegueix qualsevol"
+	dex_line "cosa que es mogui"
+	dex_line "r4pid amb el desig"
+	dex_line "de guanyar-lo."
 	dex_end
 
 RattataPokedexDescription: ; 0x2f224
-	dex_text "Bites anything"
-	dex_line "when it attacks."
-	dex_line "Small and very"
-	dex_line "quick, it is a"
-	dex_line "common sight in"
-	dex_line "many places."
+	dex_text "Ho mosseguen tot quan"
+	dex_line "ataquen. S5n petites"
+	dex_line "i rapides, també"
+	dex_line "comunes en molts"
+	dex_line "indrets."
+	dex_line ""
 	dex_end
 
 RaticatePokedexDescription: ; 0x2f27f
-	dex_text "It uses its whis-"
-	dex_line "kers to maintain"
-	dex_line "its balance."
-	dex_line "It apparently"
-	dex_line "slows down if"
-	dex_line "they are cut off."
+	dex_text "Utilitza els bigotis"
+	dex_line "per mantenir l`equi-"
+	dex_line "libri. Si se l`hi"
+	dex_line "tallen es torna"
+	dex_line "més lent."
+	dex_line ""
 	dex_end
 
 NidorinoPokedexDescription: ; 0x2f2dd
-	dex_text "An aggressive"
-	dex_line "POKéMON that is"
-	dex_line "quick to attack."
-	dex_line "The horn on its"
-	dex_line "head secretes a"
-	dex_line "powerful venom."
+	dex_text "Un POKéMON agressiu"
+	dex_line "sempre llest per"
+	dex_line "atacar. La banya"
+	dex_line "segrega una poderosa"
+	dex_line "toxina."
+	dex_line ""
 	dex_end
 
 NidorinaPokedexDescription: ; 0x2f33c
-	dex_text "The female`s horn"
-	dex_line "develops slowly."
-	dex_line "Prefers physical"
-	dex_line "attacks such as"
-	dex_line "clawing and"
-	dex_line "biting."
+	dex_text "Té la banya més"
+	dex_line "curta que el mascle."
+	dex_line "Executa atacs f3sics,"
+	dex_line "com mossegades i"
+	dex_line "esgarrapades."
+	dex_line ""
 	dex_end
 
 GeodudePokedexDescription: ; 0x2f394
-	dex_text "Found in fields"
-	dex_line "and mountains."
-	dex_line "Mistaking them"
-	dex_line "for boulders,"
-	dex_line "people often step"
-	dex_line "or trip on them."
+	dex_text "Es troba per les"
+	dex_line "muntanyes i turons. El"
+	dex_line "confonen sovint amb"
+	dex_line "una pedra quan la"
+	dex_line "gent s`atura a fer"
+	dex_line "rep5s o els trepitja"
 	dex_end
 
 PorygonPokedexDescription: ; 0x2f3f3
-	dex_text "A POKéMON that"
-	dex_line "consists entirely"
-	dex_line "of programming"
-	dex_line "code. Capable of"
-	dex_line "moving freely in"
-	dex_line "cyberspace."
+	dex_text "Un POKéMON que est4"
+	dex_line "format només per"
+	dex_line "codi de programari."
+	dex_line "Pot moure`s amb"
+	dex_line "total llibertat pel"
+	dex_line "ciberespai."
 	dex_end
 
 AerodactylPokedexDescription: ; 0x2f451
-	dex_text "A ferocious, pre-"
-	dex_line "historic POKéMON"
-	dex_line "that goes for the"
-	dex_line "enemy`s throat"
-	dex_line "with its serrated"
-	dex_line "saw-like fangs."
+	dex_text "Un ferotge i pre-"
+	dex_line "hist8ric POKéMON"
+	dex_line "que va directe a"
+	dex_line "la jugular del"
+	dex_line "l`oponent amb les"
+	dex_line "dents de serra."
 	dex_end
 
 MagnemitePokedexDescription: ; 0x2f4b7
-	dex_text "Uses anti-gravity"
-	dex_line "to stay suspended."
-	dex_line "Appears without"
-	dex_line "warning and uses"
-	dex_line "THUNDER WAVE and"
-	dex_line "similar moves."
+	dex_text "Elimina la gravetat"
+	dex_line "per levitar."
+	dex_line "Apareix de cop i"
+	dex_line "volta i empra"
+	dex_line "moviments"
+	dex_line "el7ctrics."
 	dex_end
 
 CharmanderPokedexDescription: ; 0x2f51d
-	dex_text "Obviously prefers"
-	dex_line "hot places. When"
-	dex_line "it rains, steam"
-	dex_line "is said to spout"
-	dex_line "from the tip of"
-	dex_line "its tail."
+	dex_text "Naturalment, prefe-"
+	dex_line "reix llocs c4lids."
+	dex_line "Quan plou, la punta"
+	dex_line "de la cua li fumeja."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 SquirtlePokedexDescription: ; 0x2f57b
-	dex_text "After birth, its"
-	dex_line "back swells and"
-	dex_line "hardens into a"
-	dex_line "shell. Powerfully"
-	dex_line "sprays foam from"
-	dex_line "its mouth."
+	dex_text "Després de néixer,"
+	dex_line "l`esquena s`endureix"
+	dex_line "com una closca."
+	dex_line "Dispara escuma"
+	dex_line "amb energia des de"
+	dex_line "la boca."
 	dex_end
 
 CharmeleonPokedexDescription: ; 0x2f5d9
-	dex_text "When it swings"
-	dex_line "its burning tail,"
-	dex_line "it elevates the"
-	dex_line "temperature to"
-	dex_line "unbearably high"
-	dex_line "levels."
+	dex_text "Quan arqueja la cua"
+	dex_line "n`eleva la tempera-"
+	dex_line "tura a nivells"
+	dex_line "molt alts."
+	dex_line ""
+	dex_line ""
 	dex_end
 
 WartortlePokedexDescription: ; 0x2f631
-	dex_text "Often hides in"
-	dex_line "water to stalk"
-	dex_line "unwary prey. For"
-	dex_line "swimming fast, it"
-	dex_line "moves its ears to"
-	dex_line "maintain balance."
+	dex_text "S`amaga a l`aigua"
+	dex_line "per guaitar les"
+	dex_line "ignorants preses."
+	dex_line "Si neda r4pid, mou"
+	dex_line "les orelles per"
+	dex_line "estabilitzar-se."
 	dex_end
 
 CharizardPokedexDescription: ; 0x2f696
-	dex_text "Spits fire that"
-	dex_line "is hot enough to"
-	dex_line "melt boulders."
-	dex_line "Known to cause"
-	dex_line "forest fires"
-	dex_line "unintentionally."
+	dex_text "Deixa anar un foc"
+	dex_line "tan calent que fon"
+	dex_line "les roques. De"
+	dex_line "tant en tant causa"
+	dex_line "incendis forestals"
+	dex_line "sense voler."
 	dex_end
 
 OddishPokedexDescription: ; 0x2f6f3
-	dex_text "During the day,"
-	dex_line "it keeps its face"
-	dex_line "buried in the"
-	dex_line "ground. At night,"
-	dex_line "it wanders around"
-	dex_line "sowing its seeds."
+	dex_text "De dia, enterra la"
+	dex_line "cara al terra."
+	dex_line "De nit, dona voltes"
+	dex_line "i planta les seves"
+	dex_line "llavors."
+	dex_line ""
 	dex_end
 
 GloomPokedexDescription: ; 0x2f759
-	dex_text "The fluid that"
-	dex_line "oozes from its"
-	dex_line "mouth isn`t drool."
-	dex_line "It is a nectar"
-	dex_line "that is used to"
-	dex_line "attract prey."
+	dex_text "Els l3quids que"
+	dex_line "despr7n per la boca"
+	dex_line "s5n un n7ctar"
+	dex_line "que utilitza per"
+	dex_line "atreure les preses."
+	dex_line ""
 	dex_end
 
 VileplumePokedexDescription: ; 0x2f7b7
-	dex_text "The larger its"
-	dex_line "petals, the more"
-	dex_line "toxic pollen it"
-	dex_line "contains. Its big"
-	dex_line "head is heavy and"
-	dex_line "hard to hold up."
+	dex_text "Com més grans els"
+	dex_line "p7tals, més t8xic"
+	dex_line "és el pol6len que"
+	dex_line "contenen. El seu"
+	dex_line "cap es feixuc i"
+	dex_line "dif3cil de mantenir."
 	dex_end
 
 BellsproutPokedexDescription: ; 0x2f81c
-	dex_text "A carnivorous"
-	dex_line "POKéMON that traps"
-	dex_line "and eats bugs."
-	dex_line "It uses its root"
-	dex_line "feet to soak up"
-	dex_line "needed moisture."
+	dex_text "Un POKéMON carn3vor"
+	dex_line "Que atrapa i menja"
+	dex_line "insectes. Utilitza"
+	dex_line "els peus-arrel per"
+	dex_line "absorbir humitat."
+	dex_line ""
 	dex_end
 
 WeepinbellPokedexDescription: ; 0x2f87e
-	dex_text "It spits out"
-	dex_line "POISONPOWDER to"
-	dex_line "immobilize the"
-	dex_line "enemy and then"
-	dex_line "finishes it with"
-	dex_line "a spray of ACID."
+	dex_text "Escup pols verinosa"
+	dex_line "per immobilitzar la"
+	dex_line "presa i la remata"
+	dex_line "amb l`4cid."
+	dex_line ""
+	dex_line ""
 	dex_end
 
-VictreebellPokedexDescription: ; 0x2f8d8
-	dex_text "Said to live in"
-	dex_line "huge colonies"
-	dex_line "deep in jungles,"
-	dex_line "although no one"
-	dex_line "has ever returned"
-	dex_line "from there."
+VictreebelPokedexDescription: ; 0x2f8d8
+	dex_text "Es diu que viu en"
+	dex_line "grans grups a la"
+	dex_line "selva, encara"
+	dex_line "que ning2 ha tornat"
+	dex_line "per explicar-ho."
+	dex_line ""
 	dex_end

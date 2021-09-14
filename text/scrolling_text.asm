@@ -1,38 +1,42 @@
 BallSavedText:
 	scrolling_text_normal 5, 20, 0, 16
-	db "BALL SAVED @"
+	db "BOLA SALVADA @"
 
 ShootAgainText:
 	scrolling_text_normal 4, 20, 0, 16
-	db "SHOOT AGAIN @"
+	db "TORNA A TREURE @"
 
 EndOfBallBonusText:
 	scrolling_text_normal 1, 20, 0, 19
-	db "END OF BALL BONUS @"
+	db "   BOLA PERDUDA @"
 
 FieldMultiplierText:
 	scrolling_text_normal 0, 20, 0, 20
-	db "FIELD MULTIPLIER x0 @"
-
+	db "MULTIPL. CAMP    x0 @"
+        
 FieldMultiplierSpecialBonusText:
 	scrolling_text_nopause 7, 51
-	db "FIELD MULTIPLIER SPECIAL BONUS @"
-
+	db "BONIF. MULTIPLICADOR CAMP @"
+	
 DigitsText1to8:
 	scrolling_text 7, 51, 6, 20, 2, 15
 	db "12345678 @"
 
 BonusMultiplierText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "BONUS MULTIPLIER x0  @"
+	db "MULTIPL. EXTRA   x0  @"
+		
+	      
+	
 
 ExtraBallText:
 	scrolling_text_normal 5, 20, 0, 16
-	db "EXTRA BALL @"
+	db "BOLA EXTRA @"
 
 ExtraBallSpecialBonusText:
 	scrolling_text_nopause 7, 45
-	db "EXTRA BALL SPECIAL BONUS @"
+	db "BONIF. ESPECIAL BOLA EXTRA @"
+	
 
 DigitsText1to9:
 	scrolling_text 7, 45, 5, 20, 2, 15
@@ -40,15 +44,15 @@ DigitsText1to9:
 
 LetsGetPokemonText:
 	scrolling_text_normal 1, 20, 0, 19
-	db "LET`S GET POKeMON @"
+	db "ATRAPEM EL POKeMON! @"
 
 PokemonRanAwayText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "POKeMON RAN AWAY @"
+	db "EL POKeMON HA FUGIT @"
 
 PokemonCaughtSpecialBonusText:
 	scrolling_text_nopause 7, 49
-	db "POKeMON CAUGHT SPECIAL BONUS @"
+	db "BONIF. ESPECIAL CAPTURA @"
 
 OneBillionText:
 	scrolling_text 7, 46, 5, 20, 2, 19
@@ -56,7 +60,7 @@ OneBillionText:
 
 HitText:
 	stationary_text 4, 0, 64
-	db "HIT @"
+	db "TOC: @"
 
 Data_2a2a:
 	stationary_text 8, 1, 64
@@ -65,7 +69,7 @@ Data_2a2a:
 
 FlippedText:
 	stationary_text 2, 0, 64
-	db "FLIPPED @"
+	db "BUMPER: @"
 
 CatchModeTileFlippedScoreStationaryTextHeader:
 	stationary_text 10, 1, 64
@@ -74,7 +78,7 @@ CatchModeTileFlippedScoreStationaryTextHeader:
 
 JackpotText:
 	stationary_text 2, 0, 180
-	db "JACKPOT @"
+	db "PREMI: @"
 
 CatchModeJackpotScoreStationaryTextHeader:
 	stationary_text 10, 1, 180
@@ -82,12 +86,12 @@ CatchModeJackpotScoreStationaryTextHeader:
 	db $00, $00 ; unused
 
 YouGotAText:
-	scrolling_text_nopause 5, 30
-	db "YOU GOT A @"
+	scrolling_text_nopause 4, 40
+	db "HAS AGAFAT UN: @"
 
 YouGotAnText:
-	scrolling_text_nopause 5, 31
-	db "YOU GOT AN @"
+	scrolling_text_nopause 4, 40
+	db "HAS AGAFAT UN: @"
 
 Data_2a79:
 	scrolling_text 5, 30, 0, 20, 2, 17
@@ -99,23 +103,23 @@ Data_2a91:
 
 StartTrainingText:
 	scrolling_text_normal 3, 20, 0, 18
-	db "START TRAINING @"
+	db "A ENTRENAR! @"
 
 FindItemsText:
 	scrolling_text_normal 5, 20, 0, 16
-	db "FIND ITEMS @"
+	db "BUSCA OBJECTES @"
 
 EvolutionFailedText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "EVOLUTION FAILED @"
+	db "EVOLUCIO FALLIDA @"
 
 ItEvolvedIntoAText:
 	scrolling_text_nopause 5, 38
-	db "IT EVOLVED INTO A @"
+	db "HA EVOLUCIONAT A @"
 
 ItEvolvedIntoAnText:
 	scrolling_text_nopause 5, 39
-	db "IT EVOLVED INTO AN @"
+	db "HA EVOLUCIONAT A @"
 
 Data_2b1c:
 	scrolling_text 5, 38, 0, 20, 2, 17
@@ -127,7 +131,7 @@ Data_2b34:
 
 EvolutionSpecialBonusText:
 	scrolling_text_nopause 7, 44
-	db "EVOLUTION SPECIAL BONUS @"
+	db "BONIF. ESPECIAL EVOLUCIO @"
 
 Data_2b6b:
 	scrolling_text 7, 44, 6, 20, 2, 15
@@ -135,23 +139,23 @@ Data_2b6b:
 
 PokemonIsTiredText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "POKeMON IS TIRED @"
+	db "POKeMON CANSAT @"
 
 ItemNotFoundText:
 	scrolling_text_normal 3, 20, 0, 18
-	db "ITEM NOT FOUND @"
+	db "OBJECTE NO TROBAT @"
 
 PokemonRecoveredText:
 	scrolling_text_normal 1, 20, 0, 19
-	db "POKeMON RECOVERED @"
+	db "POKeMON RECUPERAT @"
 
 TryNextPlaceText:
 	scrolling_text_normal 3, 20, 0, 18
-	db "TRY NEXT PLACE @"
+	db "PROVA UN ALTRE LLOC @" ;TRY NEXT PLACE
 
 YeahYouGotItText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "YEAH! YOU GOT IT @"
+	db "SI! BEN FET! @"
 
 EvolutionTypeGetTextPointers:
 	dw GetThunderStoneText
@@ -164,43 +168,47 @@ EvolutionTypeGetTextPointers:
 
 GetExperienceText:
 	scrolling_text_normal 3, 20, 0, 18
-	db "GET EXPERIENCE @"
+	db "AGAFA EXP @" 
 
 GetFireStoneText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "GET A FIRE STONE @"
+	db "AGAFA PEDRA FOC @"
 
 GetWaterStoneText:
 	scrolling_text_normal 1, 20, 0, 19
-	db "GET A WATER STONE @"
+	db "AGAFA PEDRA AIGUA @"
 
 GetThunderStoneText:
 	scrolling_text_normal 0, 20, 0, 20
-	db "GET A THUNDER STONE @"
+	db "AGAFA PEDRA TRO @"
 
 GetLeafStoneText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "GET A LEAF STONE @"
+	db "AGAFA PEDRA FULLA @"
 
 GetMoonStoneText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "GET A MOON STONE @"
+	db "AGAFA PEDRA LLUNA @" 
 
 GetLinkCableText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "GET A LINK CABLE @"
+	db "AGAFA CABLE LINK @"
+
 
 MapMoveFailedText:
 	scrolling_text_normal 2, 20, 0, 18
-	db "MAP MOVE FAILED @"
+	db "VIATGE FALLIT @"
 
 ArrivedAtMapText:
 	scrolling_text_nopause 5, 31
-	db "ARRIVED AT @"
+	db "HAS VIATJAT A @"
+	
 
 StartFromMapText:
-	scrolling_text_nopause 5, 31
-	db "START FROM @"
+	scrolling_text_nopause 4, 40
+	db "COMENCEM PER @"
+	
+
 
 MapNames:
 	dw PalletTownText
@@ -224,141 +232,141 @@ MapNames:
 
 PalletTownText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "PALLET TOWN @"
+	db "POBLE PALETA @"
 
 ViridianCityText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "VIRIDIAN CITY @"
+	db " CIUTAT VERDA @"
 
 ViridianForestText:
 	scrolling_text 5, 31, 2, 20, 2, 18
-	db "VIRIDIAN FOREST @"
+	db "   BOSC VERD @"
 
 PewterCityText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "PEWTER CITY @"
+	db "CIUTAT GRISENCA @"
 
 MtMoonText:
 	scrolling_text 5, 31, 6, 20, 2, 14
-	db "MT.MOON @"
+	db "MONT LLUNA @"
 
 CeruleanCityText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "CERULEAN CITY @"
+	db " CIUTAT CIAN @"
 
 VermilionSeasideText:
 	scrolling_text 5, 31, 0, 20, 2, 20
-	db "VERMILION : SEASIDE @"
+	db "   PORT ESCARLATA @"
 
 VermilionStreetsText:
 	scrolling_text 5, 31, 0, 20, 2, 20
-	db "VERMILION : STREETS @"
+	db "  CIUTAT VERMELLA @"
 
 RockMountainText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "ROCK MOUNTAIN @"
+	db "  TUNEL ROCOS @"
 
 LavenderTownText:
 	scrolling_text 5, 31, 3, 20, 2, 17
-	db "LAVENDER TOWN @"
+	db " POBLE LAVANDA @"
 
 CeladonCityText:
 	scrolling_text 5, 31, 4, 20, 2, 17
-	db "CELADON CITY @"
+	db "CIUTAT TURQUESA @"
 
 CyclingRoadText:
 	scrolling_text 5, 31, 4, 20, 2, 17
-	db "CYCLING ROAD @"
+	db "VIA CICLABLE @" ; *
 
 FuchiaCityText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "FUCHIA CITY @" ; mispelling -- should be fuchsia
+	db "CIUTAT FUCSIA @" 
 
 SafariZoneText:
 	scrolling_text 5, 31, 4, 20, 2, 16
-	db "SAFARI ZONE @"
+	db "ZONA SAFARI @"
 
 SaffronCityText:
 	scrolling_text 5, 31, 4, 20, 2, 17
-	db "SAFFRON CITY @"
+	db "CIUTAT SAFRA @"
 
 SeafoamIslandsText:
 	scrolling_text 5, 31, 2, 20, 2, 18
-	db "SEAFOAM ISLANDS @"
+	db "ILLES ESCUMA @"
 
 CinnabarIslandText:
 	scrolling_text 5, 31, 2, 20, 2, 18
-	db "CINNABAR ISLAND @"
+	db "ILLA GRANAT @"
 
 IndigoPlateauText:
 	scrolling_text 5, 31, 3, 20, 2, 18
-	db "INDIGO PLATEAU @"
+	db "ALTIPLA ATZUR @"
 
 GoToDiglettStageText:
 	scrolling_text_normal 0, 20, 0, 20
-	db "GO TO DIGLETT STAGE @"
+	db "NIVELL DIGLETT @" 
 
 GoToGengarStageText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "GO TO GENGAR STAGE @"
+	db "NIVELL GENGAR @"
 
 GoToMewtwoStageText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "GO TO MEWTWO STAGE @"
+	db "NIVELL MEWTWO @"
 
 GoToMeowthStageText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "GO TO MEOWTH STAGE @"
+	db "NIVELL MEOWTH @"
 
 GoToSeelStageText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "GO TO SEEL STAGE @"
+	db "NIVELL SEEL @"
 
 EndGengarStageText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "END GENGAR STAGE @"
+	db "FI NIVELL GENGAR @"
 
 EndMewtwoStageText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "END MEWTWO STAGE @"
+	db "FI NIVELL MEWTWO @"
 
 EndDiglettStageText:
 	scrolling_text_normal 1, 20, 0, 19
-	db "END DIGLETT STAGE @"
+	db "FI NIVELL DIGLETT @"
 
 EndMeowthStageText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "END MEOWTH STAGE @"
+	db "FI NIVELL MEOWTH @"
 
 EndSeelStageText:
 	scrolling_text_normal 3, 20, 0, 18
-	db "END SEEL STAGE @"
+	db "FI NIVELL SEEL @"
 
 GengarStageClearedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "GENGAR STAGE CLEARED @"
+	db "NIVELL GENGAR FET @"
 
 MewtwoStageClearedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "MEWTWO STAGE CLEARED @"
+	db "NIVELL MEWTWO FET @"
 
 DiglettStageClearedText:
 	scrolling_text_normal -1, 20, 0, 21
-	db "DIGLETT STAGE CLEARED @"
+	db "NIVELL DIGLETT FET @"
 
 MeowthStageClearedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "MEOWTH STAGE CLEARED @"
+	db "NIVELL MEOWTH FET @"
 
 SeelStageClearedText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "SEEL STAGE CLEARED @"
+	db "NIVELL SEEL FET @" 
 
 NumPokemonCaughtText:
-	db "  0 POKeMON CAUGHT@"
+	db "  0 POKeMON AGAFATS@"
 
 NumPokemonEvolvedText:
-	db "  0 POKeMON EVOLVED@"
+	db "  0 EVOLUCIONS@"
 
 BellsproutCounterText:
 	db "  0 BELLSPROUT@"
@@ -367,28 +375,28 @@ DugtrioCounterText:
 	db "  0 DUGTRIO@"
 
 CaveShotCounterText:
-	db "  0 CAVE SHOTS@"
+	db "  0 LOTERIES@"
 
 SpinnerTurnsCounterText:
-	db "  0 SPINNER TURNS@"
+	db "  0 TOCS BUMPER@"
 
 BonusPointsText:
-	db " BONUS@"
+	db " BONIF.@"
 
 SubtotalPointsText:
 	db " SUBTOTAL@"
 
 MultiplierPointsText:
-	db " MULTIPLIER@"
+	db " MULTIPLICADOR@"
 
 TotalPointsText:
 	db " TOTAL@"
 
 ScoreText:
-	db " SCORE@"
+	db " PUNTS@"
 
 GameOverText:
-	db "     GAME  OVER     @"
+	db "  FI DE LA PARTIDA     @"
 
 PsyduckCounterText:
 	db "  0 PSYDUCK@"
