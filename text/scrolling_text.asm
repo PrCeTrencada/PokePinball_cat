@@ -304,63 +304,63 @@ IndigoPlateauText:
 
 GoToDiglettStageText:
 	scrolling_text_normal 0, 20, 0, 20
-	db "NIVELL DIGLETT @" 
+	db "NIVELL TALPI @" 
 
 GoToGengarStageText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "NIVELL GENGAR @"
+	db "NIVELL MALOMBRA @"
 
 GoToMewtwoStageText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "NIVELL MEWTWO @"
+	db "NIVELL OMEGAT @"
 
 GoToMeowthStageText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "NIVELL MEOWTH @"
+	db "NIVELL PELAGAT @"
 
 GoToSeelStageText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "NIVELL SEEL @"
+	db "NIVELL FOKKI @"
 
 EndGengarStageText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "FI NIVELL GENGAR @"
+	db "FI NIVELL MALOMBRA @"
 
 EndMewtwoStageText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "FI NIVELL MEWTWO @"
+	db "FI NIVELL OMEGAT @"
 
 EndDiglettStageText:
 	scrolling_text_normal 1, 20, 0, 19
-	db "FI NIVELL DIGLETT @"
+	db "FI NIVELL TALPI @"
 
 EndMeowthStageText:
 	scrolling_text_normal 2, 20, 0, 19
-	db "FI NIVELL MEOWTH @"
+	db "FI NIVELL PELAGAT @"
 
 EndSeelStageText:
 	scrolling_text_normal 3, 20, 0, 18
-	db "FI NIVELL SEEL @"
+	db "FI NIVELL FOKKI @"
 
 GengarStageClearedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "NIVELL GENGAR FET @"
+	db "NIVELL MALOMBRA FET @"
 
 MewtwoStageClearedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "NIVELL MEWTWO FET @"
+	db "NIVELL OMEGAT FET @"
 
 DiglettStageClearedText:
 	scrolling_text_normal -1, 20, 0, 21
-	db "NIVELL DIGLETT FET @"
+	db "NIVELL TALPI FET @"
 
 MeowthStageClearedText:
 	scrolling_text_normal 0, 20, 0, 21
-	db "NIVELL MEOWTH FET @"
+	db "NIVELL PELAGAT FET @"
 
 SeelStageClearedText:
 	scrolling_text_normal 1, 20, 0, 20
-	db "NIVELL SEEL FET @" 
+	db "NIVELL FOKKI FET @" 
 
 NumPokemonCaughtText:
 	db "  0 POKeMON AGAFATS@"
@@ -369,10 +369,10 @@ NumPokemonEvolvedText:
 	db "  0 EVOLUCIONS@"
 
 BellsproutCounterText:
-	db "  0 BELLSPROUT@"
+	db "  0 TIJAFINA@"
 
 DugtrioCounterText:
-	db "  0 DUGTRIO@"
+	db "  0 TRITALPI@"
 
 CaveShotCounterText:
 	db "  0 LOTERIES@"
@@ -399,13 +399,13 @@ GameOverText:
 	db "  FI DE LA PARTIDA     @"
 
 PsyduckCounterText:
-	db "  0 PSYDUCK@"
+	db "  0 MIGRANEC@"
 
 PoliwagCounterText:
-	db "  0 POLIWAG@"
+	db "  0 CULLERET@"
 
 CloysterCounterText:
-	db "  0 CLOYSTER@"
+	db "  0 CLOTXELADA@"
 
 SlowpokeCounterText:
-	db "  0 SLOWPOKE@"
+	db "  0 LENTOFOL@"
